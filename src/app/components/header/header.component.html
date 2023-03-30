@@ -1,1 +1,9 @@
+<header>
 <h1>{{title}}</h1> <!-- Recordar que es un one way binding, desde el componente al template-->
+<app-button 
+color="green" 
+text="Add task"
+(btnClick)="toggleAddTask()"
+></app-button>
+
+</header>
