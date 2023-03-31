@@ -1,6 +1,6 @@
 import { Component,Input } from '@angular/core';
-import { Task } from '../Task';
-import { TASKS } from '../mock-task';
+import { Task } from '../../Task';
+import { TASKS } from '../../mock-task';
 import { faTimes } from '@fortawesome/free-solid-svg-icons'; //esto nos va a dar el icono para sacar tareas, es una cruz
 
 @Component({
